@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/sushilab_logo"/>
+
+    <TextView
+        android:id="@+id/lunch_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Lunch"
+        android:textAllCaps="true"
+        android:textSize="24sp"/>
+
+    <TextView
+
+        android:id="@+id/lunch_week_day_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday - Thursday"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:text="Adult - $18.99     Kid (under 10) - $10.99"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="138dp"
+        android:layout_marginStart="138dp"
+        android:text="Friday - Sunday"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:text="Adult - $20.99     Kid (under 10) - $13.99"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="16dp"
+        android:text="DINNER"
+        android:textAllCaps="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="121dp"
+        android:layout_marginStart="120dp"
+        android:text="Monday - Thursday"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="86dp"
+        android:layout_marginStart="86dp"
+        android:text="Adult - 28.99     Kid (under 10) - $20.99"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="138dp"
+        android:layout_marginStart="138dp"
+        android:text="Friday - Sunday"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:text="Adult - $31.99     Kid (under 10) - $23.99"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btn_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agree"
+
+        />
+
+</LinearLayout>
+
